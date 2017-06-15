@@ -40,7 +40,7 @@ function toast(toast_time_ms){
 function show_selected_value(selected_value){
   $('.opciones').hide();  
   $('.solucion').show();
-  $("p").text("Tu decisión : " + selected_value);
+  $("p").text(selected_value);
   if (selected_value === "Definitivamente, sí") {
     $('#imagen_si').fadeIn(400);
   } else if (selected_value === "Definitivamente, no"){
