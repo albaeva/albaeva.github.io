@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="utf-8">
+    <title>Tomador de decisiones aleatorio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Deja que el tomador de decisiones decida por ti">
+    <meta name="keywords" content="tomador decisiones">
+    <meta name="author" content="Alba Eva Peláez">
+    <link rel='stylesheet' type='text/css' href='css/style.css'> 
+</head>
+
+<body>
+  <div class='form'>
+  <div class='form-html'>
+     
+  <div class="titulo">
+            <h1>Tomador de decisiones</h1>          
+  </div>
+  
+     <div class='opciones'>
+       
+     <input type="text" name="options[A]" id="option_a" list="lista" size=50 placeholder="Selecciona o escribe tus opciones...">
+      <datalist id="lista">
+       <option value="Definitivamente, sí" label="Definitivamente, sí">
+       <option value="Definitivamente, no" label="Definitivamente, no">
+       <option value="Ya lo pensarás mañana" label="Ya lo pensarás mañana">
+       <option value="Pregunta a tu madre" label="Pregunta a tu madre">
+       <option value="Pide una pizza" label="Pide una pizza">
+       <option value="Tómate una cerve" label="Tómate una cerve">
+       
+      </datalist>
+     
+    <br>
+    <br>
+     
+    <input type="text" name="options[B]" id="option_b" list="lista" size=50>
+      <datalist id="lista"></datalist>
+    <br>
+    <br>
+     
+    <input type="text" name="options[C]" id="option_c" list="lista" size=50>
+      <datalist id="lista"></datalist>
+    <br>
+    <br>
+     <input type="text" name="options[D]" id="option_d" list="lista" size=50>
+      <datalist id="lista"></datalist>
+    <br>
+    <br>
+     <input type="text" name="options[E]" id="option_e" list="lista" size=50>
+      <datalist id="lista"></datalist>
+    <br>
+    <br>
+     <input type="text" name="options[F]" id="option_f" list="lista" size=50>
+      <datalist id="lista"></datalist>
+    <br>
+    <br>
+ </div>
+    
+ <input  class='button' type="button" value="¡Decide por mí!">
+    
+<!-- IMÁGENES  -->       
+    <img class="imagenes" id="imagen_no" src="http://i.imgsafe.org/2bcbd97672.png" alt="Fuck no" width="300" height="200" >
+
+   <img class="imagenes" id="imagen_si" src="http://i.imgsafe.org/2bc74c3d05.png" alt="Answer yes to every question" width="300" height="200" >
+
+    <img class="imagenes" id="imagen_pizza" src="http://i.imgsafe.org/2bbb315d4a.png" alt="Pizza understands" width="300" height="200">
+
+  <img class="imagenes" id="imagen_cerveza" src="http://i.imgsafe.org/2ba01c833b.jpg" alt="Booze is the answer" width="300" height="200">
+    
+   <img class="imagenes" id="imagen_mañana" src="http://i.imgsafe.org/2bb21df1f4.png" alt="Procrastination" width="300" height="200">
+    
+<img class="imagenes" id="imagen_general" src="http://i.imgsafe.org/2bedccef3f.png" alt="You are stupid" width="300" height="200">
+    
+<img class="imagenes" id="imagen_madre" src="http://i.imgsafe.org/2bfb144d21.png" alt="Mother advice" width="300" height="200">      
+    
+<div class="solucion" >
+  <h2><p> </p></h2>
+</div>    
+     
+    
+</div> 
+</div>
+  
+  <!-- TOAST -->
+<div id="toast">Estamos trabajando en ello...</div>   
+  
+<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script> 
+ 
+<script src="js/index.js"></script>
+
+</body>
+</html>
